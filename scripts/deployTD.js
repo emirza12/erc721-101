@@ -1,6 +1,6 @@
 // Deploying the TD somewhere
 // To verify it on Etherscan:
-// npx hardhat verify --network sepolia <address> <constructor arg 1> <constructor arg 2>
+// npx hardhat verify --network holesky <address> <constructor arg 1> <constructor arg 2>
 
 const hre = require("hardhat");
 const Str = require('@supercharge/strings')

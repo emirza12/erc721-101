@@ -24,20 +24,20 @@ Your objective is to gather as many TD-ERC721-101 points as possible. Please not
 - Register for an infura API key 
 - Register for an etherscan API key 
 - Create a `.env` file that contains a private key for deployment, an infura API key and an Etherscan API key. 
-- Test that you are able to connect to the Sepolia network with `npx hardhat console --network sepolia`
+- Test that you are able to connect to the holesky network with `npx hardhat console --network holesky`
 - To deploy a contract, configure a script in the [scripts folder](scripts). Look at the way the TD is deployed and try to iterate
 - Test your deployment locallly with `npx hardhat run scripts/your-script.js`
-- Deploy on Sepolia `npx hardhat run scripts/your-script.js --network sepolia`
+- Deploy on holesky `npx hardhat run scripts/your-script.js --network holesky`
 
 
 ## Points list
 ### Setting up
-- Install Hardhat and create an empty hardhat project (2 pts). Create an infura API key to be able to deploy to the Sepolia testnet
+- Install Hardhat and create an empty hardhat project (2 pts). Create an infura API key to be able to deploy to the holesky testnet
 These points will be attributed manually if you do not manage to have your contract interact with the evaluator, or automatically when calling `submitExercice()` for the first time.
 
 ### ERC721 basics
 - Create an ERC721 token contract wand give token 1 to Evaluator contract
-- Deploy it to the Sepolia testnet
+- Deploy it to the holesky testnet
 - Call `submitExercice()` in the Evaluator to configure the contract you want evaluated (2 pts)
 - Call `ex1_testERC721()` in the evaluator to receive your points (2 pts) 
 - Call `ex2a_getAnimalToCreateAttributes()` to get assigned a random creature to create. Mint it and give it to the evaluator
@@ -75,7 +75,7 @@ Extra points if you find bugs / corrections this TD can benefit from, and submit
 - Publish the code of the Evaluator on Etherscan using the "Verify and publish" functionnality 
 
 ## TD addresses
-- ERC20TD [`0xB6aeC34A759bAE9a58Ea882d560E4cf5cf8731Ed`](https://sepolia.etherscan.io/address/0xB6aeC34A759bAE9a58Ea882d560E4cf5cf8731Ed)
-- Evaluator [`0x43981d9b7f031500f618727B68e554930eE99BB8`](https://sepolia.etherscan.io/address/0x43981d9b7f031500f618727B68e554930eE99BB8)
-- Evaluator2 [`0x1bD670cc635a517eDF48a0FD3019286A5FFCf5D1`](https://sepolia.etherscan.io/address/0x1bD670cc635a517eDF48a0FD3019286A5FFCf5D1)
+- ERC20TD [`0xa7272eFB9537c1FF7628F30C6Dd240b292C65545`](https://holesky.etherscan.io/address/0xa7272eFB9537c1FF7628F30C6Dd240b292C65545)
+- Evaluator [`0x7759a66191f6e80ff8A2C0ab833886C7b632bbB7`](https://holesky.etherscan.io/address/0x7759a66191f6e80ff8A2C0ab833886C7b632bbB7)
+- Evaluator2 [`0xFA7EDE4F2ebb69Bb8A25993c4C132E118a0FC027`](https://holesky.etherscan.io/address/0xFA7EDE4F2ebb69Bb8A25993c4C132E118a0FC027)
 

@@ -2,7 +2,7 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@supercharge/strings": "^1.25.0",
-    "hardhat": "^2.14.0"
+    "hardhat": "^2.22.16"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.3",
